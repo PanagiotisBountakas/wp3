@@ -129,7 +129,7 @@ Sousa, Patricia. "Privacy Preserving Middleware Platform for IoT" (2021). Univer
 **Password-less authentication**
 * Summary: The password-less authentication asset is based on the FIDO standards8 . It provides a device-centric authentication that implements a) a challenge-response scheme in which the user is authenticated locally (i.e., on the device that it is deployed to access the service) using alternative authentication methods, such as PIN, USB keys, and biometrics and b) public key cryptography to authenticate the device in the service. During the FIDO authentication, when a user (in our case a student) is authenticated in its device (for instance, using a USB key), it unlocks its private key, which subsequently is deployed to sign the challenge and the service deploys the user’s public key, to decode the challenge.
 * Video: https://drive.google.com/file/d/1GpjutgdyqpWmXQ_AfIPByX7pOOIiqCC-/view?usp=sharing
-* Main publication:
+* Main publication: Angelogianni, A., Politis, I., & Xenakis, C. (2021). How many FIDO protocols are needed? Surveying the design, security and market perspectives. arXiv preprint arXiv:2107.00577.
 
 **SS-PP-IdM**
 * Summary: SS-PP-IdM uses OLYMPUS virtual identity provider, which is comprised of multiple individual IdPs, to manage user identities and authentication. It relies on distributed p-ABCs to offer privacy- preserving (minimal disclosure and unlinkability) and authentication (presentation of attributes) linked to eIDAS. Moreover, the asset proposes a trust framework based on Blockchain to complement the usage of credentials.
